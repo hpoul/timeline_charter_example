@@ -1,0 +1,12 @@
+name:  sample_pubspec
+description:  A sample application
+
+dependencies:
+  timeline_charter:
+    path: ../timeline_charter
+  polymer: any
+
+transformers:
+- polymer:
+    entry_points:
+    - 'web/index.html'

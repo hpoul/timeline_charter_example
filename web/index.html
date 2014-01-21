@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Analytics</title>
+    <link rel="import" href="packages/timeline_charter/tapo_graph.html" />
+  </head>
+ 
+  <body>   
+    Action Log Count:<br />
+    
+    <tapo-graph prefix="dummy" loadjson="latestdata.json"></tapo-graph>
+    <br /><br />
+    <script type='application/dart'>export 'package:polymer/init.dart';
+    </script>
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>
