@@ -1,4 +1,4 @@
-name:  sample_pubspec
+name:  timeline_charter_example
 description:  A sample application
 
 dependencies:
@@ -10,3 +10,4 @@ transformers:
 - polymer:
     entry_points:
     - 'web/index.html'
+

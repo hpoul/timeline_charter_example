@@ -1,2 +1,6 @@
 packages
+/build
+/example_cache
+/tmp
+/latestdata.json
 
