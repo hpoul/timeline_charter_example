@@ -1,0 +1,38 @@
+<!DOCTYPE html><html><head><script src="packages/shadow_dom/shadow_dom.debug.js"></script>
+<script src="packages/custom_element/custom-elements.debug.js"></script>
+<script src="packages/browser/interop.js"></script>
+
+    <title>Analytics</title>
+    
+  </head>
+ 
+  <body><polymer-element name="tapo-graph">
+  <template>
+  
+    <!-- link type="text/css" rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" -->
+    <link rel="stylesheet" href="packages/timeline_charter/js/rickshaw/rickshaw.min.css">
+    <link rel="stylesheet" href="packages/timeline_charter/css/graph.css">
+  
+    <div class="lastupdated">Last Updated: {{ lastupdatestr }}</div>
+  
+    <div class="chartwrapper"></div>
+
+  </template>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.15/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="packages/timeline_charter/js/rickshaw/d3.v3.js"></script>
+  <script type="text/javascript" src="packages/timeline_charter/js/rickshaw/rickshaw.min.js"></script>
+    
+  <script type="text/javascript" src="packages/timeline_charter/js/drawchart.js"></script>
+  
+</polymer-element>
+   
+    Action Log Count:<br>
+    
+    <tapo-graph prefix="dummy" loadjson="latestdata.json"></tapo-graph>
+    <br><br>
+    <script src="index.html_bootstrap.dart.js"></script>
+    
+  
+
+</body></html>

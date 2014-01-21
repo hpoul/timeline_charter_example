@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<script src="packages/browser/dart.js"></script>
+<script src="packages/browser/interop.js"></script>
+<polymer-element name="tapo-graph">
+  <template>
+  
+    <!-- link type="text/css" rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" -->
+    <link rel="stylesheet" href="js/rickshaw/rickshaw.min.css">
+    <link rel="stylesheet" href="css/graph.css" />
+  
+    <div class="lastupdated">Last Updated: {{ lastupdatestr }}</div>
+  
+    <div class="chartwrapper"></div>
+
+  </template>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.15/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="js/rickshaw/d3.v3.js"></script>
+  <script type="text/javascript" src="js/rickshaw/rickshaw.min.js"></script>
+    
+  <script type="text/javascript" src="js/drawchart.js"></script>
+  <script type="application/dart" src="tapo_graph.dart"></script>
+</polymer-element>
